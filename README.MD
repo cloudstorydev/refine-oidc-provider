@@ -32,7 +32,7 @@ Refine Framework: https://refine.dev/
 * Go to AWS Console - Cognito
 * Create New User Pool
 * Create new App Client -> This will create new OIDC Client
-* Take down the Client ID and Secret and update configuration in oidcConfig in index.tsx
+* Write down the Client ID and Secret and update configuration in oidcConfig in index.tsx
 
 ## Other OIDC Setup
 * Find out the Client ID, Client Secret, and OIDC https end point (The endpoint will be the root domain as in https://root-domain/.well-known/openid-configuration)

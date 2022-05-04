@@ -35,36 +35,11 @@ Refine Framework: https://refine.dev/
 * Create new App Client -> This will create new OIDC Client
 * Take down the Client ID and Secret and update configuration in oidcConfig in index.tsx
 
-##Other OIDC Setup
+## Other OIDC Setup
 * Find out the OIDC https end point (The endpoint will be the root domain as in https://<root domain>/.well-known/openid-configuration)
 * Update Client ID and Secreet configuration in oidcConfig in index.tsx 
  
- 
- 
-
-
-
- 
- 
-
-
-
-[Go To Documentation]()
-
-
-### **no**
-
-
-
-[Go To Documentation]()
-
-
-### **no**
-
-
-
-[Go To Documentation]()
-
+  
 
 
 ## License

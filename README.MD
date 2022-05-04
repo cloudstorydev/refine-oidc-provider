@@ -1,5 +1,4 @@
-# refine-oidc-provider
-Refine Auth Provider for ___ OIDC / AWS Cognito ___
+# Refine Auth Provider for OIDC / AWS Cognito  
 
 Refine Framework: https://refine.dev/  
 

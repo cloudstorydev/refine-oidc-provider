@@ -1,0 +1,59 @@
+{
+  "name": "refine-oidc-provider",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@pankod/refine-antd": "^3.16.2",
+    "@pankod/refine-core": "^3.14.2",
+    "@pankod/refine-react-router-v6": "^3.14.2",
+    "@pankod/refine-react-table": "^3.16.2",
+    "@pankod/refine-simple-rest": "^3.14.2",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^12.20.10",
+    "@types/react": "^17.0.4",
+    "@types/react-dom": "^17.0.3",
+    "npm": "^8.8.0",
+    "oidc-client-ts": "^2.0.3",
+    "pluralize": "^8.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-mde": "^11.5.0",
+    "react-oidc-context": "^2.1.0",
+    "react-scripts": "^5.0.0",
+    "typescript": "^4.2.4",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  }
+}

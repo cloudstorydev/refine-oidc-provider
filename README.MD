@@ -1,16 +1,15 @@
-# refine-rest
+# refine-oidc-provider
+Refine Auth Provider for OIDC / AWS Cognito
 
-GraphQL endpoint: https://2bhwjgncnbftbmposu3oggauq4.appsync-api.ap-southeast-1.amazonaws.com/graphql
-GraphQL API KEY: da2-y2ho5xwi4fbhrhz6s2hzq44ox4
-
-
-This project was generated with [superplate](https://github.com/pankod/superplate).
-
-## Getting Started
-
-superplate is a Next.js all-in-one project generator. Create your project with the tools you need without spending hours on setting them up.
+Refine Framework: https://refine.dev/  
 
 ## Available Scripts
+
+### Install dependency
+
+```bash
+    npm install
+```
 
 ### Running the development server.
 
@@ -30,66 +29,17 @@ superplate is a Next.js all-in-one project generator. Create your project with t
     npm run start
 ```
 
-## Learn More
+## AWS Cognito Setup 
+* Go to AWS Console - Cognito
+* Create New User Pool
+* Create new App Client -> This will create new OIDC Client
+* Take down the Client ID and Secret and update configuration in oidcConfig in index.tsx
 
-To learn more about **superplate**, please check out the [Documentation](https://github.com/pankod/superplate).
-
-
-### **no**
-
-
-
-[Go To Documentation]()
-
-
-### **css**
-
-
-
-[Go To Documentation]()
-
-
-### **react-router-v6**
-
-
-
-[Go To Documentation]()
-
-
-### **custom-json-rest-data-provider**
-
-
-
-[Go To Documentation]()
-
-
-### **no**
-
-
-
-[Go To Documentation]()
-
-
-### **no**
-
-
-
-[Go To Documentation]()
-
-
-### **no**
-
-
-
-[Go To Documentation]()
-
-
-### **no**
-
-
-
-[Go To Documentation]()
-
+## Other OIDC Setup
+* Find out the OIDC https end point (The endpoint will be the root domain as in https://root-domain/.well-known/openid-configuration)
+* Update Client ID and Secreet configuration in oidcConfig in index.tsx 
+ 
+  
 
 
 ## License

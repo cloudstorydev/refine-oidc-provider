@@ -1,7 +1,6 @@
 # refine-rest
 
-GraphQL endpoint: https://2bhwjgncnbftbmposu3oggauq4.appsync-api.ap-southeast-1.amazonaws.com/graphql
-GraphQL API KEY: da2-y2ho5xwi4fbhrhz6s2hzq44ox4
+ 
 
 
 This project was generated with [superplate](https://github.com/pankod/superplate).
